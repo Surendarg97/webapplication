@@ -1,0 +1,17 @@
+.headerText{
+    text-align: center;
+}
+
+.submit{
+    display: block;
+    margin: 20px;
+    margin-left: 500px;
+}
+
+select{
+    margin: 20px;
+}
+
+td{
+    margin: 100px;
+}

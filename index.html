@@ -2,8 +2,39 @@
 <html>
 <head>
     <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body background="background.jpg">
-    
+    <div class="headerText">
+        <h1>Track Your Daily Calories</h1>
+    </div>
+    <table class="calorieTable">
+        <tr>
+            <td>Date</td> <td><input type="text" placeholder="Enter Date"></td>
+            <td>Time</td> <td><input type="text" placeholder="Enter time"></td>
+            <td>Food</td> <td><input type="text" placeholder="Enter Food Name"></td>
+            <td>Quantity</td> <td><input type="text" placeholder="Enter Quantity"></td>
+            <td>Calorie</td> <td><input type="text" placeholder="Enter Calorie"></td>
+        </tr>
+    </table>
+            
+    <div>
+        <input class="submit" type="submit" value="Add to tracker">
+    </div>
+
+    <div>
+        Show Calorie Value
+        <select>
+            <option>Rice</option>
+            <option>Dosa</option>
+            <option>Chappathi</option>
+            <option>Idly</option>
+            <option>Corn</option>
+            <option>Penuat Butter</option>
+            <option>Brown Bread</option>
+            <option>Sambar</option>
+            <option>Curd</option>
+        </select>
+    </div>
 </body>
 </html>
