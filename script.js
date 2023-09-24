@@ -1,0 +1,1 @@
+document.getElementById("calorie").innerHTML=100
